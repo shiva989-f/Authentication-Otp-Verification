@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #f6f6f6;
+  --foreground-color: #007bff;
+  --primary-text-color: #0a0a0a;
+  --secondary-text-color: #ffffff;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;
+}
+
+[data-theme="dark"] {
+  --background-color: #004c9e;
+  --foreground-color: #007bff;
+  --primary-text-color: #f6f6f6;
+  --secondary-text-color: #000000;
+  --toggle-bg: #283452;
+  --toggle-bg: #00a6ff;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("./assets/fonts/poppins.TTF");
+}
+
+@font-face {
+  font-family: poppinsBold;
+  src: url("./assets/fonts/poppins_bold.TTF");
+}
